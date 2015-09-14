@@ -1,15 +1,4 @@
+# Robots Exclusions file for iva-12.com
+# $Id: robots.txt,v 1.2 2015/09/14 20:20:38 gsotirov Exp $
+
 User-agent: *
-Disallow: /administrator/
-Disallow: /cache/
-Disallow: /components/
-Disallow: /images/
-Disallow: /includes/
-Disallow: /installation/
-Disallow: /language/
-Disallow: /libraries/
-Disallow: /logs/
-Disallow: /media/
-Disallow: /modules/
-Disallow: /plugins/
-Disallow: /templates/
-Disallow: /tmp/
