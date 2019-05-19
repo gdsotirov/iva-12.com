@@ -3,7 +3,7 @@
  */
 
 body {
-  background-color: f7e7c7;
+  background-color: #f7e7c7;
   color: #000;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12pt;
@@ -30,10 +30,6 @@ div#wrapper {
   border-bottom-right-radius: 5px;
   margin: 0 auto;
   max-width: 800px;
-  -webkit-border-bottom-left-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  -moz-border-radius-bottomright: 5px;
 }
 
 div#header {
