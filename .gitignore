@@ -1,2 +1,4 @@
-google*.html
+.project
+.settings
 .well-known
+google*.html
