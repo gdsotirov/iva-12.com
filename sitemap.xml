@@ -2,46 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+                            http://www.w3.org/1999/xhtml
+                            http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd">
 <url>
   <loc>http://iva-12.com/</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/index.en" /> 
-  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/index.bg" /> 
   <lastmod>2019-05-19</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/index.en" />
+  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/index.bg" />
 </url>
 <url>
   <loc>http://iva-12.com/news</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/news.en" /> 
-  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/news.bg" /> 
   <lastmod>2019-05-19</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/news.en" />
+  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/news.bg" />
 </url>
 <url>
   <loc>http://iva-12.com/products</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/products.en" /> 
-  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/products.bg" /> 
   <lastmod>2019-05-19</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/products.en" />
+  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/products.bg" />
 </url>
 <url>
   <loc>http://iva-12.com/services</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/services.en" /> 
-  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/services.bg" /> 
   <lastmod>2019-05-19</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/services.en" />
+  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/services.bg" />
 </url>
 <url>
   <loc>http://iva-12.com/contact</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/contact.en" /> 
-  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/contact.bg" /> 
   <lastmod>2019-05-19</lastmod>
   <changefreq>yearly</changefreq>
   <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="http://iva-12.com/contact.en" />
+  <xhtml:link rel="alternate" hreflang="bg" href="http://iva-12.com/contact.bg" />
 </url>
 </urlset>
 
