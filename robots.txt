@@ -1,4 +1,3 @@
 # Robots Exclusions file for iva-12.com
-# $Id: robots.txt,v 1.2 2015/09/14 20:20:38 gsotirov Exp $
 
 User-agent: *
