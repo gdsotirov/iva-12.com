@@ -34,9 +34,17 @@ div#wrapper {
 
 div#title {
   border: 2px solid #130804;
+  color: #990000;
   float: left;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  height: 116px;
   padding-left: 5pt;
   width: 290px;
+}
+
+div#title p {
+  margin: 0;
 }
 
 div#banner {
