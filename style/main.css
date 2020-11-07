@@ -32,10 +32,6 @@ div#wrapper {
   max-width: 800px;
 }
 
-div#header {
-  padding: 5pt 5pt 0pt;
-}
-
 div#title {
   border: 2px solid #130804;
   float: left;
@@ -52,44 +48,47 @@ div#banner img {
   border: 0;
 }
 
-div#contentarea {
-  clear: right;
-  padding: 5pt;
+header {
+  padding: 5pt 5pt 0pt;
 }
 
-div#left {
+img {
+  border: 0;
+}
+
+nav {
   background-color: #8e3c04;
   border: 1px solid #2b1208;
+  clear: right;
+  margin: 5pt;
 }
 
-div#main {
+section {
   background-color: #f7da98;
   border: 1px solid #2b1208;
-  clear: left;
-  margin: 5pt 0 0 0;
+  clear: both;
   padding: 5pt;
+  margin: 5pt;
 }
 
-div#footer {
+footer {
   clear: left;
 }
 
 /* Interface elements */
 
-ul.menu {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 10pt 0;
 }
 
-ul.menu li {
+nav ul li {
   display: inline;
 }
 
-ul.menu a {
+nav ul a {
   color: #fffffe;
-  /*display: block;
-  float: left;*/
   font-style: italic;
   font-weight: bolder;
   padding: 10pt;
@@ -97,7 +96,7 @@ ul.menu a {
   text-transform: uppercase;
 }
 
-ul.menu a:hover {
+nav ul a:hover {
   background-color: #600;
 }
 
@@ -114,18 +113,13 @@ ul.actions img {
   border: 0;
 }
 
-div.blog dt.article-info-term {
-  display: none;
-}
-
-div.blog dl.article-info dd {
-  font-style: italic;
-  margin: 0;
-}
-
 p.copyright {
   color: #900;
   font-style: italic;
   text-align: center;
+}
+
+p.published {
+  font-style: italic;
 }
 
