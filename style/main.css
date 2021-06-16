@@ -56,12 +56,37 @@ div#banner img {
   border: 0;
 }
 
+div#address {
+  float: left;
+}
+
+div#address address, div#address p, div#contacts {
+  padding-left: 20pt;
+}
+
+div#loc_map img {
+  padding-left: 10pt;
+}
+
 header {
   padding: 5pt 5pt 0pt;
 }
 
 img {
   border: 0;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.left {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 nav {
@@ -121,13 +146,33 @@ ul.actions img {
   border: 0;
 }
 
+p.center, h2.center {
+  text-align: center;
+}
+
+p.clear {
+  clear: both;
+}
+
 p.copyright {
   color: #900;
   font-style: italic;
   text-align: center;
 }
 
+p.justify {
+  text-align: justify;
+}
+
 p.published {
   font-style: italic;
+}
+
+span.title {
+  font-weight: bolder; font-size: xx-large;
+}
+
+span.under {
+  text-decoration: underline;
 }
 
