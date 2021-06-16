@@ -3,3 +3,14 @@
 
 RedirectMatch 404 "(?i)/\.?(cvs|svn|git|hg|bzr)"
 
+<IfModule mod_headers.c>
+  Header always set Content-Security-Policy-Report-Only "\
+default-src 'self'; \
+font-src 'self' https://fonts.gstatic.com; \
+object-src 'none'; \
+report-uri https://sotirov-bg.net/csp_report.php; \
+require-trusted-types-for 'script'; \
+script-src 'self' 'report-sample'; \
+style-src 'self' https://fonts.googleapis.com"
+</IfModule>
+
